@@ -54,6 +54,7 @@ class PerguntasApp extends StatelessWidget {
                       onPressed: () { controller.avancar(); },
                       child: Text('Avançar')
                     ),
+                    
                     ElevatedButton(
                       onPressed: () { controller.voltar(); },
                       child: Text('Voltar')
